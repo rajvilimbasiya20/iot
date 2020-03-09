@@ -60,7 +60,7 @@ export class PspListComponent implements OnInit {
   }
   onSelect(id)
     {
-      //console.log(id)
+      console.log(id)
       console.log(this.countries);
     }
     getCountries() { this._countryService.getCountryData().subscribe(data => { this.countries = data 
